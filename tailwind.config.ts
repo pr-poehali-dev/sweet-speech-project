@@ -17,8 +17,16 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			serif: ['Merriweather', 'serif'],
+			sans: ['Montserrat', 'sans-serif'],
+		},
 		extend: {
 			colors: {
+				'deep-blue': '#11E3A8A',
+				'emerald': '#059669', 
+				'burgundy': '#DC2626',
+				'academic-gray': '#6B7280',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
